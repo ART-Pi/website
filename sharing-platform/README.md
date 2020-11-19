@@ -14,6 +14,13 @@
 
 # 扩展板分享
 
+## 野火 RGB 显示屏转接板
+
+![fire](figures/fire.png ':size=500x300 :ignore ')
+
+- 作者：[layson](https://gitee.com/layson_li)
+- 仓库地址：https://gitee.com/layson_li/art-pi-open-source-information
+
 ## 多媒体扩展板
 
 ![](figures/media.png ':size=500x300 :ignore ')
