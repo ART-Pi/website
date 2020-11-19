@@ -1,4 +1,2 @@
-# ART-Pi-Home
-[扩展板](../expansion_board/README.md)
 
-[demo](../demo/README.md)
+[ART-Pi开发手册](development/ART-Pi_开发手册.md ':include')
