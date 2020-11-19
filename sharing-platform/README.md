@@ -8,7 +8,7 @@
 
 ## 互联网网关
 
-![](figures/modbustcp2rtu.gif ':size=500x300 :ignore ')
+![](figures/modbustcp2rtu.gif ':size=800x250 :ignore ')
 - 作者：[loogg](https://github.com/loogg)
 - 仓库地址：https://github.com/RT-Thread-Studio/sdk-bsp-stm32h750-realthread-artpi/tree/master/projects/industry_io_gateway
 
@@ -16,21 +16,21 @@
 
 ## 野火 RGB 显示屏转接板
 
-![fire](figures/fire.png ':size=500x300 :ignore ')
+![fire](figures/fire.png ':size=800x250 :ignore ')
 
 - 作者：[layson](https://gitee.com/layson_li)
 - 仓库地址：https://gitee.com/layson_li/art-pi-open-source-information
 
 ## 多媒体扩展板
 
-![](figures/media.png ':size=500x300 :ignore ')
+![media](figures/media.png ':size=500x400 :ignore ')
 - 作者：RT-Thread
 - 主页：todo
 - 仓库地址：todo
 
 ## 工业扩展板
 
-![](figures/Industry-IO.png ':size=500x300 :ignore ')
+![Industry](figures/Industry-IO.png ':size=500x400 :ignore ')
 - 作者：RT-Thread
 - 主页：todo
 - 仓库地址：todo
