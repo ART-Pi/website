@@ -1,0 +1,361 @@
+
+.bk{
+    outline:1px solid red;
+}
+.persimmonBanner .wrapper{
+    height:500px;
+    position:relative;
+}
+
+.persimmonBanner .wrapper:hover .slider-page span{
+    opacity:1;
+}
+.persimmonBanner ul,.persimmonBanner li{
+    list-style:none;
+}
+.persimmonBanner .wrapper .slider{
+    height:100%;
+    width:100%;
+    padding:0;
+}
+.persimmonBanner  .slider-item{
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    opacity:0;
+    transition:opacity 1s;
+    z-index:0;
+}
+.persimmonBanner  .slider-item a{
+    display:inline-block;
+    width:100%;
+    height:100%;
+    /* background-color: rgba(53,54,68,0.3); */
+
+}
+.persimmonBanner  .slider-item.current{
+    opacity:1;
+    z-index:100;
+}
+.persimmonBanner  .slider-item:nth-child(1){
+    background:url(../images/laptop-2618797_1280.jpg) no-repeat;
+    background-size:cover;
+    /* background:yellow; */
+    background-size:100% 100%;
+}
+.persimmonBanner  .slider-item:nth-child(2){
+    background:url(../images/business-2089534_1280.jpg) no-repeat;
+    background-size:cover;
+    /* background:yellowgreen; */
+    background-size:100% 100%;
+
+}
+.persimmonBanner  .slider-item:nth-child(3){
+    background:url(../images/business-1536236_1280.png) no-repeat;
+    background-size:cover;
+    /* background:skyblue; */
+    background-size:100% 100%;
+
+}
+.persimmonBanner .slider-btn{
+    position:absolute;
+    bottom:20px;
+    text-align:center;
+    margin:0 auto;
+    width:100%;
+    z-index:200;
+}
+.persimmonBanner .slider-btn span{
+    display:inline-block;
+    width:13px;
+    height:13px;
+    border-radius:50%;
+    margin:0 10px;
+    background:rgba(0,0,0,.3);
+    cursor:pointer;
+}
+.persimmonBanner .slider-btn span.current{
+    background:rgba(0,0,0,.6);
+}
+.persimmonBanner .slider-page{
+    z-index:200;
+}
+.persimmonBanner .slider-page span{
+    z-index:100;
+    position:absolute;
+    width:20px;
+    height:40px;
+    top:50%;
+    transform:translateY(-20px);
+    opacity:0;
+    transition:opacity 0.5s;
+    cursor:pointer;
+    
+}
+.persimmonBanner .slider-page .slider-page-prev{
+    background:rgba(204,205,208,.3) url(../images/banner_left.png) center center no-repeat;
+    left:20px;
+}
+.persimmonBanner .slider-page .slider-page-next{
+    background:rgba(204,205,208,.3) url(../images/banner_right.png) center center no-repeat;
+    right:20px;
+}
+.persimmonBanner .item1 .container{
+    /* border:1px solid red; */
+}
+.persimmonBanner .item1 .item-row{
+    /* padding-top:150px; */
+    display:block;
+    text-align:center;
+    color:#fff;
+    height:100%;
+    padding-top:10%;
+}
+.persimmonBanner .item1 .item1-content{
+    padding:20px;
+    border-radius:10px;
+    font-size:30px;
+    line-height:50px;
+    text-align:left;
+    text-shadow: 5px 5px 5px #FF0000;
+}
+
+.persimmonBanner .item1-content li:nth-child(2){
+    padding-left:60px;
+}
+.persimmonBanner .item1-content li:nth-child(3){
+    padding-left:120px;
+}
+.persimmonBanner .item1 .more a{
+    color:#666;
+    font-size:16px;
+}
+.persimmonBanner .item1 .more:hover a{
+    text-decoration:underline;
+}
+
+/* 共用头部 */
+.persimmon .persimmon-title{
+    text-align:center;
+    padding:40px 0 50px;
+}
+.persimmon .persimmon-title h2{
+    margin:15px 0 30px;
+}
+.persimmon .persimmon-title img{
+    width:60px;
+    height:60px;
+}
+.persimmon .persimmon-title span{
+    font-size:28px;
+    font-weight:normal;
+}
+.persimmon .persimmon-title p{
+    font-size:16px;
+    max-width:800px;
+    margin:0 auto;
+}
+
+
+.persimmonIntroduce{
+    padding-bottom:50px;
+}
+.persimmonIntroduce .persimmon-content{
+    text-align:center;
+}
+.persimmonIntroduce .persimmon-content  img{
+    width:380px;
+    height:350px;
+}
+.persimmonIntroduce .persimmon-content h3{
+    text-align:left;
+    font-size:20px;
+    margin:10px 0;
+    padding:0 20px;
+    font-weight:normal;
+    position:relative;
+    /* border:1px solid red; */
+}
+.persimmonIntroduce .persimmon-content h3:after{
+    content:"";
+    display:block;
+    width:40px;
+    height:2px;
+    background:#17bec4;
+    position:absolute;
+    left:20px;
+    bottom:-10px;
+}
+.persimmonIntroduce .persimmon-content p{
+    font-size:16px;
+    text-align:left;
+    line-height:28px;
+    padding:10px 20px;
+
+}
+.persimmonIntroduce .persimmon-content .more{
+    text-align:left;
+    padding-left:20px;
+    margin-top:20px;
+}
+.persimmonIntroduce .persimmon-content .more a{
+    background:#17bec4;
+    padding:10px 30px;
+    color:#fff;
+    border-radius:5px;
+}
+.persimmonIntroduce  .more a:hover{
+
+}
+
+
+
+
+
+.persimmonCharacter{
+    padding-bottom:50px;
+    /* border:1px solid red; */
+    background:url(https://www.rt-thread.org/admin.php?m=file&f=read&t=jpg&fileID=42&type=fullURL);
+    background-size:100% 100%;
+}
+.persimmonCharacter .persimmon-content{
+    position:relative;
+}
+.persimmonCharacter .persimmon-content .item{
+    text-align:center;
+    padding:0;
+}
+.persimmonCharacter  .item .item-container{
+    width:80%;
+    margin:0 auto;
+    padding:30px 10px 10px;
+}
+.persimmonCharacter  .item .item-icon{
+    width:100px;
+    height:100px;
+    margin:0 auto;
+    border-radius:50%;
+    border:1px solid #ddd;
+}
+.persimmonCharacter  .item:nth-child(1) .item-icon{
+    background:#5bb6ee;
+}
+.persimmonCharacter  .item:nth-child(2) .item-icon{
+    background:#5bd1dc;
+}
+.persimmonCharacter  .item:nth-child(3) .item-icon{
+    background:#52c9a6;
+}
+.persimmonCharacter  .item .item-icon i{
+    font-size:60px;
+    color:#fff;
+    line-height:100px;
+}
+.persimmonCharacter  .item h3{
+    font-size:20px;
+    padding:20px 0;
+    font-weight:normal;
+}
+.persimmonCharacter  .item p{
+    font-size:16px;
+    line-height:26px;
+    color:#808080;
+}
+
+
+
+
+.persimmonDesigner{
+    padding-bottom:50px;
+}
+.persimmonDesigner .persimmon-content{
+    text-align:center;
+}
+.persimmonDesigner .persimmon-content  video{
+    width:380px;
+    height:210px;
+    border:1px solid #aaa;
+    margin-top:20px;
+}
+.persimmonDesigner .persimmon-content .cover{
+    display:none;
+    position:fixed;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.8);
+    z-index:500;
+    top:0;
+    left:0;
+}
+.persimmonDesigner  .cover video{
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-190px;
+    margin-top:-105px;
+}
+.persimmonDesigner .persimmon-content h3{
+    text-align:left;
+    font-size:20px;
+    margin:10px 0;
+    padding:0 20px;
+    font-weight:normal;
+    position:relative;
+    /* border:1px solid red; */
+}
+.persimmonDesigner .persimmon-content h3:after{
+    content:"";
+    display:block;
+    width:55px;
+    height:2px;
+    background:#17bec4;
+    position:absolute;
+    left:20px;
+    bottom:-10px;
+}
+.persimmonDesigner .persimmon-content p{
+    font-size:16px;
+    text-align:left;
+    line-height:28px;
+    padding:10px 20px;
+
+}
+.persimmonDesigner .persimmon-content .more{
+    text-align:center;
+    margin-top:20px;
+    margin:50px auto 0;
+}
+.persimmonDesigner .persimmon-content .more a{
+    display:inline-block;
+    background:#17bec4;
+    padding:10px 30px;
+    color:#fff;
+    border-radius:5px;
+    font-size:16px;
+}
+.persimmonDesigner  .more i{
+    font-size:20px;
+    padding-right:5px;
+    line-height:24px;
+
+}
+.persimmonDesigner  .more span{
+    line-height:24px;
+    vertical-align:top;
+}
+.persimmonDesigner .more a:hover{
+    text-decoration:none;
+    background:#5bd1dc;
+}
+
+
+@media (min-width:0) and (max-width: 992px){
+    .persimmonBanner .wrapper{
+        /* height:200px; */
+       
+    }
+
+
+}

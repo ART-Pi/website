@@ -1,0 +1,196 @@
+.bk{
+    outline:1px solid red;
+}
+.bu{
+    outline:1px solid blue;
+}
+.signBanner {
+    height:200px;
+    background:#1e2835;
+    color:#fff;
+    position:fixed;
+    width:100%;
+    top:78px;
+    z-index:200;
+}
+.signBanner.current{
+    display:none;
+}
+.signBanner .item-left{
+   height:100%;
+}
+.signBanner .item-left .item-title{
+    font-size:38px;
+    height:100%;
+    line-height:200px;
+    padding:0;
+    margin:0;
+}
+.signBanner .item-right{
+    height:100%;
+    line-height:200px;
+    text-align:center;
+}
+.signBanner .item-right img{
+    width:180px;
+    height:160px;
+}
+
+
+.signProcess{
+    margin-top:260px;
+    /* height:800px; */
+    /* overflow:auto; */
+}
+.signProcess.current{
+    margin-top:40px;
+
+}
+.signProcess .wrapper{
+    padding:30px;
+}
+.signProcess .signNaWrapper{
+    min-height:1px;
+    padding:0;
+    /* display:none; */
+} 
+.signProcess .signNav{
+    position:fixed;
+    top:320px;
+    border:1px solid #e5e5e5;
+    padding:0;
+    z-index:200;
+}
+.signProcess .signNav.current{
+    top:120px;
+}
+.signProcess ul,.signProcess li{
+    list-style:none;
+    cursor:pointer;
+}
+.signProcess .signNav li{
+    width:262px;
+    height:70px;
+    border:1px solid #e5e5e5;
+    text-align:left;
+    line-height:70px;
+    background:#f6f6f6;
+    padding-left:70px;
+    color:#666;
+    font-size:18px;
+}
+.signProcess .signNav li.current{
+    background:#aaa;
+    color:#fff;
+}
+.signProcess .signNav li:hover{
+    background:#999;
+    color:#fff;
+}
+.signProcess .signNav li i{
+    padding-right:10px;
+    font-size:20px;
+}
+.signProcess .col-md-9{
+    padding:0;
+    margin:0;
+}
+.signProcess .sign-flow{
+    padding:0 20px;
+}
+.signProcess .sign-flow .sign-title{
+    height:50px;
+    line-height:50px;
+    border-bottom:2px solid #a0a0a0;
+    font-size:28px;
+    margin-bottom:20px;
+}
+.signProcess .sign-flow .sign-content{
+    border-left:1px solid #e5e5e5;
+    /* height:300px; */
+    position:relative;
+    padding:70px 10px 50px 20px;
+    
+}
+.signProcess .sign-content .circle{
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    border:5px solid #e7e6e6;
+    position:absolute;
+    background:#fff;
+    left:-10px;
+    top:20px;
+}
+.signProcess .sign-content .tip{
+    padding:10px 20px;
+    height:40px;
+    line-height:20px;
+    background:#cccccd;
+    position:absolute;
+    border-radius:5px;
+    left:30px;
+    top:10px;
+}
+.signProcess .sign-content .tip:after{
+    content:"";
+    display:block;
+    border:10px solid transparent;
+    position:absolute;
+    border-right:10px solid #cccccd;
+    left:-20px;
+    top:10px;
+}
+.signProcess .sign-content .content{
+    height:160px;
+    border:1px solid #e5e5e5;
+    padding-right:10px;
+}
+.signProcess .sign-content .content img{
+    height:160px;
+}
+
+
+@media (min-width:992px) and (max-width: 1200px){
+    .signProcess .signNav li{
+        width:220px;
+        padding-left:50px;
+    }
+}
+
+@media (min-width:0) and (max-width: 992px){
+    .signBanner .col-md-5{
+        width:40%;
+        float:left;
+    }
+    .signBanner .col-md-7{
+        width:60%;
+        float:left;
+    }
+    .signBanner .item-left{
+        height:100%;
+        padding:70px 15px 0 0;
+     }
+    .signBanner .item-left .item-title{
+        font-size:24px;
+        line-height:32px;
+        text-align:center;
+    }
+    .signBanner .item-right img{
+        width:100px;
+        height:100px;
+    }
+
+    .signProcess .signNav{
+        position:static;
+        display:none;
+    }
+    .signProcess .wrapper{
+        padding:0;
+    }
+    .signProcess .sign-content .content{
+        height:350px;
+        text-align:center;
+        padding:20px 20px 0;
+    }
+}
