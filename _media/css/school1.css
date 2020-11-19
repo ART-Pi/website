@@ -1,0 +1,988 @@
+ul,li{
+  list-style:none;
+  padding-left:0;
+}
+p{
+  margin-bottom:0;
+}
+.clearfix:after{
+  display:block;
+  content:"";
+  clear:both;
+  visibility:hidden;
+  height:0;
+}
+.schoolBanner{
+  height:460px;
+  background:url(../image/school_banner_bg.png);
+  background-size:cover;
+  color:#fff;
+}
+.schoolBanner .container{
+  height:100%;
+  position:relative;
+}
+.schoolBanner .content{
+  height:280px;
+  position:absolute;
+  top:50%;
+  left:0;
+  margin-top:-140px;
+  padding:30px 10px 0;
+}
+.schoolBanner .content h2{
+  font-size:56px;
+  padding-bottom:30px;
+  letter-spacing:4px;
+  font-weight:500;
+}
+.schoolBanner h2 span{
+  display:inline-block;
+  color:#56beb7;
+}
+.schoolBanner h2 i{
+  display:inline-block;
+  color:#f4c844;
+  font-style:normal;
+}
+.schoolBanner .schoolBanner-title{
+  color:#56beb7;
+}
+.schoolBanner .schoolBanner-desc{
+  max-width:630px;
+  font-size:16px;
+  line-height:28px;
+  letter-spacing:1px;
+}
+.listNav{
+  padding:48px 0 80px;
+}
+.listNav .listNav-item{
+  width:154px;
+  height:158px;
+  margin:0 auto;
+  outline:1px solid #f1f1f1;
+  text-align:center;
+  margin-bottom:10px;
+  cursor:pointer;
+  transition:all 0.5s;
+}
+.listNav .listNav-item p{
+  padding:30px 0 20px;
+}
+.listNav .listNav-item i{
+  font-size:52px;
+  color:#17bec4;
+  transition:all 0.5s;
+}
+.listNav .listNav-item span{
+  font-size:18px;
+  font-weight:600;
+  color:#666;
+}
+.listNav .listNav-item:hover{
+  background:#17bec4;
+  color:#fff;
+}
+.listNav .listNav-item:hover i,.listNav .listNav-item:hover span{
+  color:#fff;
+}
+.school-title{
+  padding-bottom:65px;
+  text-align:center;
+}
+.school-title h3{
+  font-size:32px;
+  position:relative;
+}
+.school-title h3:after{
+  content:"";
+  display:block;
+  position:absolute;
+  width:126px;
+  height:3px;
+  background:#f99f11;
+  left:50%;
+  bottom:-30px;
+  margin-left:-63px;
+}
+.school-desc{
+  padding-bottom:60px;
+}
+.school-desc p{
+  max-width: 920px;
+  margin: 0 auto;
+  text-align:center;
+  font-size:16px;
+  color:#888;
+  line-height:26px;
+  font-weight:600;
+  letter-spacing:1px
+}
+.course{
+  padding-bottom:100px;
+}
+.course .item-img{
+  height:350px;
+}
+.course .item-img img{
+  width:100%;
+  height:100%;
+}
+.course .course-item{
+  border: 1px solid #e6f1f1;
+  position:relative;
+  overflow:hidden;
+  margin-bottom:20px;
+}
+.course .item-content{
+  padding:36px 20px 40px;
+  background:#f9faff;
+}
+.course .item-title{
+  font-size:18px;
+  line-height:1em;
+  color:#000;
+  font-weight:600;
+}
+.course .item-tip{
+  padding:16px 0;
+  color:#888;
+  font-size:16px;
+  line-height:1em;
+}
+.course .item-tip span{
+  padding-right:50px;
+  font-weight:600;
+}
+.course .item-tip i{
+  color:#57bac2;
+  padding-right:8px;
+  font-size:20px;
+}
+.course .item-desc{
+  font-size:14px;
+  color:#888;
+  line-height:24px;
+  font-weight:500;
+  height:110px;
+}
+.course .item-contact{
+  padding-bottom:20px;
+  color:#57bac2;
+  font-size:14px;
+  line-height:20px;
+}
+.course .item-button{
+  display:inline-block;
+  font-size:15px;
+  margin-right:10px;
+  cursor:pointer;
+  padding:8px 24px;
+  border-radius:15px;
+  border:1px solid red;
+}
+.course .item-catalogue{
+  color:#f0b860;
+  border:1px solid #f0b860;
+}
+.course .item-catalogue:hover{
+  color:#f8c97f;
+  border:1px solid #f8c97f;
+}
+.course .item-apply{
+  color:#57bac2;
+  border:1px solid #57bac2;
+}
+.course .item-apply:hover{
+  color:#68d9e2;
+  border:1px solid #68d9e2;
+}
+.course .course-panel{
+  position:absolute;
+  width:100%;
+  height:100%;
+  left:-100%;
+  top:0;
+  color:#fff;
+  padding:30px 0 0 15px;
+  opacity:0;
+  z-index:20;
+  transition:all 0.8s;
+}
+.course .course2 .course-panel {
+  left:100%;
+}
+.course .col-md-6:nth-child(1) .course-panel{
+  background:url(../image/hover_course1_bg.png);
+}
+.course .col-md-6:nth-child(2) .course-panel{
+  background:url(../image/hover_course2_bg.png);
+}
+.course .course-panel .panel-title{
+  font-size:16px;
+  color:#dc8d16;
+  font-weight:600;
+  padding-bottom:18px;
+}
+.course .course-panel .panel-list{
+  font-size:14px;
+  line-height:20px;
+}
+.course .course-panel .panel-list li{
+  padding-bottom:10px;
+}
+.material{
+  padding-bottom:50px;
+}
+.material .material-teach{
+  padding-bottom:30px;
+}
+.material .material-tip{
+  padding-bottom:10px;
+}
+.material .material-button{
+  display:inline-block;
+  width:165px;
+  padding:12px 0;
+  border-radius:20px;
+  margin-right:15px;
+  font-size:15px;
+  text-align:center;
+}
+.material .material-tip p{
+  background:#57bac2;
+  color:#fff;
+  border:1px solid #57bac2;
+}
+.material .material-tip a{
+  width:130px;
+  color:#57bac2;
+  border:1px solid #57bac2;
+}
+.material .material-tip a:hover{
+  color:#68d9e2;
+  border:1px solid #68d9e2;
+}
+.material .teach-item{
+  padding:30px 0;
+  border-bottom:1px solid #e7e7eb;
+}
+.material .teach-item:last-child{
+  border:none;
+}
+.material .teach-item .teach-img{
+  text-align:left;
+}
+.material.teach-img img{
+  height:166px;
+}
+.material .teach-item .teach-detail{
+  padding:10px 0 0;
+}
+.material .teach-item h3{
+  font-size:18px;
+  color:#333;
+}
+.material .teach-item .teach-desc{
+  font-size:15px;
+  color:#888;
+  padding:20px 0 40px;
+  line-height:24px;
+  letter-spacing:1px;
+}
+.material .teach-item .teach-tip{
+  font-size:14px;
+  color:#333;
+}
+.material .teach-contact{
+  padding-bottom:20px;
+  font-size:15px;
+  color:#57bac2;
+  line-height:20px;
+}
+.material .project-content{
+  padding:30px 0;
+}
+.material .project-item{
+  text-align:center;
+  margin-bottom:20px;
+  height:296px;
+}
+.material .project-item img{
+  width:100%;
+  height:100%;
+}
+.material .project-desc{
+  margin-top:15px;
+  padding:25px;
+  background:#f9faff;
+  font-size:15px;
+}
+.material .project-desc p{
+  line-height:24px;
+  color:#888;
+  padding-bottom:8px;
+}
+.material .project-desc a{
+  display:inline-block;
+  color:#17bec4;
+  padding-bottom:10px;
+}
+.material .project-desc a:hover{
+  text-decoration:underline;
+}
+.teachServece{
+  padding:50px 0;
+}
+.teachServece .teachServece-tip{
+  font-size:20px;
+  padding:15px 5px;
+  background:#f9faff;
+}
+.teachServece .teachServece-tip i{
+  display:inline-block;
+  width:48px;
+  height:48px;
+  text-align:center;
+  line-height:48px;
+  font-size:30px;
+  vertical-align:top;
+  background:#56beb7;
+  color:#fff;
+  border-radius:4px;
+  margin-right:10px;
+}
+.teachServece .teachServece-tip span{
+  display:inline-block;
+  height:48px;
+  line-height:48px;
+  vertical-align:top;
+  font-weight:600;
+}
+.teachServece .train-tab{
+  padding:40px 5px;
+}
+.teachServece .train-tab li{
+  display:inline-block;
+  border:1px solid #ababab;
+  border-radius:20px;
+  padding:10px 40px;
+  font-size:16px;
+  margin-right:20px;
+  cursor:pointer;
+}
+.teachServece .train-tab li:hover{
+  border:1px solid #b7b6b6;
+  color:#888;
+}
+.teachServece .train-tab li.current{
+  border:1px solid #56beb7;
+  color:#56beb7;
+}
+.teachServece .train-tab li.current:hover{
+  border:1px solid #66d9d1;
+  color:#66d9d1;
+}
+.teachServece .train-panel{
+  padding-bottom:40px;
+}
+.teachServece .train-panel{
+  display:none;
+}
+.teachServece .train-panel.current{
+  display:block;
+}
+.teachServece .train-panel .panel-item{
+  border:1px solid #eeeeee;
+  height:240px;
+  padding:30px 35px 0;
+  position:relative;
+  margin-bottom:20px;
+}
+.teachServece .panel-item h3{
+  font-size:18px;
+  line-height:26px;
+}
+.teachServece .panel-item .item-content{
+  padding:30px 0 50px;
+}
+.teachServece .panel-item .item-content span{
+  font-size:14px;
+  padding:6px 20px;
+  color:#57bac2;
+  border:1px solid #57bac2;
+  border-radius:15px;
+  cursor:pointer;
+}
+.teachServece .panel-item .item-desc{
+  font-size:14px;
+}
+.teachServece .panel-item .item-desc span{
+  float:left;
+  color:#575757;
+}
+.teachServece .panel-item .item-desc a{
+  float:right;
+  color:#ababab;
+}
+.teachServece .panel-item .item-detail{
+  position:absolute;
+  width:100%;
+  min-height:240px;
+  left:0;
+  top:0;
+  border:1px solid red;
+  background:rgba(0,0,0,.2);
+  background:#fff;
+  padding:20px 0;
+  color:#5c5b5b;
+  font-weight:500;
+  border:1px solid #eeeeee;
+  z-index:-20;
+  opacity:0;
+  transition:all 0.5s;
+}
+.teachServece .item-detail p{
+  font-size:15px;
+  margin-bottom:5px;
+  padding:0 10px;
+}
+.teachServece .item-detail .detail-outer{
+  padding:4px 0 4px 50px;
+  position:relative;
+  font-size:14px;
+  line-height:20px;
+}
+.teachServece .item-detail .detail-outer>span{
+  position:absolute;
+  left:10px;
+}
+.teachServece .item-detail .detail-inner{
+  padding:4px 0 4px 90px;
+  position:relative;
+  font-size:14px;
+  line-height:20px;
+}
+.teachServece .item-detail .detail-inner>span{
+  position:absolute;
+  left:50px;
+}
+.teachServece .item-detail .detail-special{
+  padding:4px 0 4px 90px;
+  position:relative;
+  font-size:14px;
+  line-height:20px;
+}
+.teachServece .item-detail .detail-special>span{
+  position:absolute;
+  left:10px;
+}
+.teachServece .item-detail .detail-even{
+  background:#e8eaea;
+}
+.teachServece .support-content{
+  padding:40px 0 20px 60px;
+  font-size:16px;
+  color:#888;
+  font-weight:600;
+  line-height:30px;
+  letter-spacing:1px;
+}
+.teachServece .support-content p{
+  margin-bottom:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.activity{
+  padding:50px 0;
+  background:#f9faff;
+}
+.activity .item-img{
+  height:350px;
+}
+.activity .item-img img{
+  width:100%;
+  height:100%;
+}
+.activity .item-content{
+  padding: 0 15px;
+  font-size:18px;
+}
+.activity .item-title{
+  padding:24px 0;
+  font-weight:600;
+}
+.activity .item-desc{
+  height:100px;
+  font-size:16px;
+  color:#888;
+  line-height:26px;
+}
+.activity .item-apply{
+  padding: 30px 0 20px;
+}
+.activity .item-apply a{
+  display:inline-block;
+  color:#6dc3ca;
+  font-weight:600;
+}
+.activity .item-apply a:hover{
+  color:#63d3dc;
+  transform:translate(0,-5px);
+  text-decoration:none;
+}
+.join{
+  padding: 50px 0;
+}
+.join .join-item{
+  height: 516px;
+  margin-bottom:20px;
+}
+.join .join-method{
+  padding:0 30px;
+}
+.join .method-content{
+  height:100%;
+  background:#57bac2;
+  color:#fff;
+}
+.join .method-content .method-title{
+  padding: 35px 25px;
+  background: #f99f11;
+  font-size:20px;
+  font-weight:600;
+  letter-spacing:1px;
+  line-height: 20px;
+}
+.join .method-content .method-list{
+  padding: 20px 25px 0;
+  font-size:14px;
+  line-height:24px;
+  text-align:center;
+}
+.join .method-content .method-list li{
+  padding: 14px 20px;
+  border:1px solid rgba(255,255,255,0.5);
+  background:rgba(255,255,255,0.1);
+  margin-bottom:28px;
+  letter-spacing:1px;
+}
+.join .method-content .method-list a{
+  color:#fff;
+}
+.join .method-content .method-list a:hover{
+  text-decoration:underline;
+}
+.join .method-content .method-button{
+  text-align:center;
+}
+.join .method-content .method-button a{
+  display:inline-block;
+  line-height:16px;
+  padding:15px 25px;
+  background:#f99f11;
+  color:#fff;
+  font-size:16px;
+  border-radius:4px;
+}
+.join .method-content .method-button a:hover{
+  text-decoration:none;
+  background:#fbb341;
+}
+.join .join-rights{
+  box-shadow: 0 0 10px #e9f6f7;
+}
+.join .rights-content{
+  padding: 24px 40px 0;
+}
+.join .rights-content .rights-title{
+  text-align:center;
+  font-size:20px;
+  font-weight:600;
+  padding-bottom:18px;
+}
+.join .rights-content .rights-list li{
+  padding: 20px 40px;
+  border:1px solid #e1e1f4;
+  margin-bottom:30px;
+}
+.join .rights-content .rights-list h3{
+  color: #57bac2;
+  font-size:18px;
+}
+.join .rights-content .rights-list p{
+  padding-top:14px;
+  font-size:14px;
+  color:#666;
+}
+.partner{
+  padding:50px 0 60px;
+  background:#f9faff;
+}
+.partner .partner-wrapper{
+  padding: 20px 50px;
+  position:relative;
+}
+.partner .partner-show{
+  height:240px;
+  position:relative;
+  overflow:hidden;
+}
+.partner .partner-list{
+  position:absolute;
+  left:0;
+  top:0;
+}
+.partner .partner-item{
+  float:left;
+  box-sizing:border-box;
+  text-align:center;
+}
+.partner .partner-item .item-content{
+  display:inline-block;
+  padding:40px 80px;
+  background:#fff;
+}
+.partner .partner-item .item-img{
+  width:108px;
+  height:108px;
+  margin:0 auto 38px;
+}
+.partner .item-img img{
+  width:100%;
+  height:100%;
+}
+.partner .partner-item .item-desc{
+  text-align:center;
+}
+.partner .partner-button li{
+  position:absolute;
+  cursor:pointer;
+  border-radius:50%;
+  background:#f29f39;
+  text-align:center;
+  width:44px;
+  height:44px;
+}
+.partner .partner-button li:hover{
+  background:#faab4b;
+}
+.partner .partner-button li i{
+  color:#fff;
+  font-size:30px;
+  line-height:44px;
+}
+.partner .partner-button .partner-prev{
+  left:0;
+  top:50%;
+  margin-top:-22px;
+}
+.partner .partner-button .partner-next{
+  right:0;
+  top:50%;
+  margin-top:-22px;
+}
+.partner .partner-tile{
+  display:none;
+  padding-top:30px;
+}
+.partner .partner-tile .tile-item{
+  text-align:center;
+  margin-bottom:20px;
+}
+.partner .tile-item .item-img{
+  width:100px;
+  height:100%;
+  margin:0 auto 30px;
+}
+.partner .tile-item .item-img img{
+  width:100%;
+  height:100%;
+}
+.partner .tile-item .item-desc{
+  font-size:16px;
+
+}
+.sideNav{
+  border:1px solid red;
+  position:fixed;
+  top:150px;
+  right:50%;
+  margin-right: -680px;
+  border: 1px solid #e6f1f1;
+  border-radius: 3px;
+  padding:20px 5px;
+  display:none;
+  background:#fff;
+}
+.sideNav li{
+  padding: 12px 3px;
+  height: 44px;
+  line-height:20px;
+  border-bottom: 1px solid #e6f1f1;
+  color: #666;
+  text-align:center;
+  cursor:pointer;
+  font-size:14px;
+}
+.sideNav li:last-child{
+  border-bottom: none;
+}
+.sideNav li:hover{
+  color:#f99f11;
+}
+.sideNav li.current{
+  position: relative;
+  background-color: #f99f11;
+  border-bottom: 0;
+  color: #fff;
+  border-radius: 4px;
+}
+@media (min-width: 768px) and (max-width: 1200px){
+  .schoolBanner{
+    height:400px;
+  }
+  .schoolBanner .content{
+    padding: 40px 10px 0;
+  }
+  .schoolBanner .content h2{
+    font-size:46px;
+  }
+  .listNav .listNav-item{
+    width:136px;
+    height:140px;
+  }
+  .listNav .listNav-item i{
+    font-size:48px;
+  }
+  .listNav .listNav-item p{
+    padding: 25px 0 25px;
+  }
+  .activity .item-apply {
+    padding: 10px 0 20px;
+  }
+  
+}
+@media (min-width: 992px) and (max-width: 1200px){
+  .material .teach-item .teach-desc{
+    padding:20px 0 20px;
+  }
+  .course .item-desc {
+    line-height: 22px;
+  }
+  .join .join-method{
+    padding:0 10px;
+  }
+  .join .method-content .method-list{
+    padding:20px 20px 0;
+  }
+  .join .method-content .method-list li{
+    padding: 14px 10px;
+  }
+  .teachServece .train-panel .panel-item{
+    padding:30px 15px 0;
+  }
+  .teachServece .support-content{
+    padding:30px 0 20px 30px;
+  }
+ 
+}
+@media (min-width: 768px) and (max-width: 992px){
+  .listNav {
+    padding: 30px 0 60px;
+  }
+  .activity .activity-item{
+    margin-bottom:20px;
+  }
+  .join .method-content .method-list {
+    padding: 40px 25px 0;
+  }
+  .join .method-content .method-list li{
+    padding: 20px 20px;
+  }
+}
+@media (min-width: 0) and (max-width: 768px){
+  .listNav {
+    padding: 30px 0 60px;
+  }
+  .schoolBanner{
+    height:320px;
+  }
+  .schoolBanner .content{
+    height:220px;
+    margin-top:-110px;
+  }
+  .schoolBanner .content h2{
+    margin:10px 0 0;
+    padding-bottom: 10px;
+    font-size:26px;
+  }
+  .schoolBanner .schoolBanner-desc{
+    line-height:22px;
+    font-size:14px;
+  }
+  .listNav .listNav-item{
+    width:120px;
+    height:124px;
+  }
+  .listNav .listNav-item i{
+    font-size:48px;
+  }
+  .listNav .listNav-item p{
+    padding: 25px 0 25px;
+  }
+  .listNav .listNav-item span{
+    font-size:16px;
+  }
+  .teachServece .train-panel .panel-item{
+    padding:30px 15px 0;
+  }
+  .teachServece .support-content{
+    padding:30px 0 20px;
+  }
+  .activity .activity-item{
+    margin-bottom:20px;
+  }
+  .partner .partner-wrapper{
+    display:none;
+  }
+  .partner .partner-tile{
+    display:block;
+  }
+}
+@media (min-width: 0) and (max-width: 500px){
+  .schoolBanner{
+    height:240px;
+  }
+  .schoolBanner .content{
+    height:200px;
+    margin-top:-100px;
+    padding-top:0;
+  }
+  .schoolBanner .content h2{
+    /* margin:10px 0 30px;
+    font-size:30px; */
+  }
+ 
+  .listNav{
+    padding:30px 0 40px;
+  }
+  .listNav .listNav-item{
+    width:90px;
+    height:90px;
+  }
+  .listNav .listNav-item i{
+    font-size:36px;
+  }
+  .listNav .listNav-item p{
+    padding: 15px 0 10px;
+  }
+  .listNav .listNav-item span{
+    font-size:14px;
+  }
+  .listNav .col-xs-4{
+    padding:0;
+  }
+  .school-title{
+    padding-bottom:40px;
+  }
+  .school-title h3{
+    font-size:28px;
+    position:relative;
+  }
+  .school-title h3:after{
+    width:118px;
+    height:2px;
+    bottom:-20px;
+    margin-left:-59px;
+  }
+  .school-desc{
+    padding-bottom:30px;
+  }
+  .school-desc p{
+    line-height:22px;
+    font-weight:normal;
+
+  }
+  .course{
+    padding-bottom:60px;
+  }
+  .course .item-img{
+    height:230px;
+  }
+  .course .item-content{
+    height:405px;
+    padding: 36px 8px 30px;
+  }
+  .course .item-desc{
+    line-height:20px;
+    height:150px;
+  }
+  .course .course-panel{
+    padding:15px 0 0 5px;
+  }
+  .course .course-panel .panel-title{
+    padding-bottom:8px;
+  }
+  .course .course-panel .panel-list{
+    font-size:14px;
+    line-height:18px;
+  }
+  .course .course-panel .panel-list li{
+    padding-bottom:3px;
+  }
+  .material .project-item{
+    height:220px;
+  }
+  .material .material-button{
+    width:140px;
+    margin-right:5px;
+  }
+  .activity{
+    padding:30px 0;
+  }
+  .activity .item-content{
+    padding:0;
+  }
+  .activity .item-img{
+    height:230px;
+  }
+  .activity .item-title {
+    padding-bottom:15px;
+  }
+  .activity .item-desc{
+    height:130px;
+  }
+  .join {
+    padding: 30px 0;
+  }
+  .join .join-method {
+    padding: 0;
+  }
+  .join .method-content .method-list{
+    padding:20px 10px 0;
+  }
+  .join .method-content .method-list li{
+    padding:15px 10px;
+    margin-bottom:20px;
+  }
+  .join .rights-content {
+    padding:24px 0;
+  }
+  .join .rights-content .rights-list li{
+    padding:20px 10px;
+    margin-bottom:20px;
+  }
+  
+}

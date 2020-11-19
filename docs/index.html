@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8">
+  <title>ART-Pi Docs</title>
+  <link rel="icon" href="_media/icon.png">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      // coverpage: true, 
+      auto2top: true,
+      executeScript: true,
+      loadNavbar: true,
+      homepage: 'development/ART-Pi_开发手册.md',
+      mergeNavbar: true,
+      maxLevel: 4,
+      subMaxLevel: 2,
+      logo: '_media/icon.png height="130px"',
+      name: '<span>ART-Pi Docs</span>',
+      search: {
+        placeholder: '搜索',
+        noData: '找不到结果!',
+        depth: 3
+      },
+      formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{mm}',
+      plugins: [
+        function (hook, vm) {
+          hook.beforeEach(function (html) {
+            var url = 'https://github.com/Guozhanxin/ART-Pi-Home/blob/master/docs/' + vm.route.file
+            var editHtml = '[:memo: Edit this page](' + url + ')\n\n'
+
+            return '_Last modified {docsify-updated}_ ' +
+              editHtml +
+              html +
+              '\n----\n' +
+              '>Powered by [rt-thread](https://www.rt-thread.org/)'
+          })
+        }
+      ]
+    }
+  </script>
+  <script src="_scripts/docsify.min.js"></script>
+  <script src="_scripts/search.min.js"></script>
+  <script src="_scripts/emoji.min.js"></script>
+  <script src="_scripts/prism-c.min.js"></script>
+</body>
+</html>

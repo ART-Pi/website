@@ -1,0 +1,377 @@
+.bk{
+    outline:1px solid red;
+}
+/* 轮播图 */
+
+    .talentBanner .wrapper{
+        height:450px;
+        position:relative;
+        overflow:hidden;
+        
+    }
+    .talentBanner .wrapper:hover .slider-page span{
+        opacity:1;
+    }
+    .talentBanner ul,.persimmonBanner li{
+        list-style:none;
+    }
+    .talentBanner .wrapper .slider{
+        height:100%;
+        width:100%;
+        padding:0;
+    }
+    .talentBanner  .slider-item{
+        width:100%;
+        height:100%;
+        position:absolute;
+        left:0;
+        top:0;
+        /* opacity:0; */
+        visibility:hidden;
+        transition:visibility 1s;
+        z-index:0;
+    }
+    .talentBanner  .slider-item.current{
+        /* opacity:1; */
+        z-index:100;
+        visibility:visible;
+    }
+    .talentBanner  .slider-item:nth-child(1){
+        background:#1e2835;
+    }
+    .talentBanner  .slider-item:nth-child(2){
+        background:#2b8872;
+    
+    }
+    .talentBanner  .slider-item:nth-child(3){
+        background:#aec9c3;
+    }
+    .talentBanner .slider-btn{
+        position:absolute;
+        bottom:10px;
+        text-align:center;
+        margin:0 auto;
+        width:100%;
+        z-index:200;
+    }
+    .talentBanner .slider-btn span{
+        display:inline-block;
+        width:15px;
+        height:15px;
+        border-radius:50%;
+        margin:0 10px;
+        background:rgba(0,0,0,.3);
+        cursor:pointer;
+        border:1px solid #fff;
+    }
+    .talentBanner .slider-btn span.current{
+        background:rgba(154,216,255,.8);
+        border:1px solid rgba(154,216,255,.8);
+    }
+    .talentBanner .slider-page{
+        z-index:200;
+    }
+    .talentBanner .slider-page span{
+        z-index:100;
+        position:absolute;
+        width:20px;
+        height:40px;
+        top:50%;
+        transform:translateY(-20px);
+        opacity:0;
+        transition:opacity 0.5s;
+        cursor:pointer;
+        
+    }
+    .talentBanner .slider-page .slider-page-prev{
+        background:rgba(204,205,208,.5) url(../images/banner_left.png) center center no-repeat;
+        left:20px;
+    }
+    .talentBanner .slider-page .slider-page-next{
+        background:rgba(204,205,208,.5) url(../images/banner_right.png) center center no-repeat;
+        right:20px;
+    }
+    /* 轮播图的每一项 */
+    .talentBanner .slider-item{
+        color:#fff;
+    }
+    .talentBanner .slider-item .item-title{
+        font-size:38px;
+    }
+    .talentBanner .slider-item .item-left{
+        padding:50px 0 0 120px ;
+    
+    }
+    .talentBanner .item1 .item-left{
+        padding:50px 0 0 50px;
+    }
+    .talentBanner .slider-item .item-right{
+        padding-top:50px;
+        text-align:center;
+    }
+    .talentBanner .slider-item .item-describe{
+        width:380px;
+        font-size:16px;
+        padding:20px 0 30px;
+        line-height:30px;
+        margin-bottom:0;
+        
+    }
+    .talentBanner .slider-item .item-more{
+        display:inline-block;
+        color:#fff;
+        border:3px solid #fff;
+        padding:10px 30px;
+        border-radius:4px;
+    }
+    .talentBanner .slider-item .item-right img{
+        width:380px;
+        height:350px;
+    }
+
+
+
+/* 人才计划介绍 */
+.talentIntroduce{
+    padding:90px 0 110px;
+    text-align:center;
+    font-size:16px;
+}
+.talentIntroduce  .talentIntroduce-img{
+    width:128px;
+    height:128px;
+    /* border:1px solid red; */
+    margin:0 auto;
+    border-radius:50%;
+    overflow:hidden;
+}
+.talentIntroduce  .talentIntroduce-title{
+    margin:28px 0 15px;
+    font-size:18px;
+}
+
+/* 视频介绍 */
+
+.talentVideo{
+    background:#f3f2f5;
+    padding:90px 0 100px;
+    text-align:center;
+    
+}
+.talentVideo .talentVideo-box{
+    display:inline-block;
+    text-align:right;
+    width:400px;
+    height:340px;
+    background:url(../images/video_bg.png);
+    background-size:100% 100%;
+    /* margin-left:100px; */
+}
+.talentVideo .talentVideo-box video{
+    margin:10px 0;
+    width:100%;
+    height:235px;
+}
+.talentVideo  .talentVideo-introduce{
+    text-align:left;
+    max-width:500px;
+}
+.talentVideo  .talentVideo-title{
+    text-align:left;
+    font-size:24px;
+    padding-bottom:15px;
+    margin-top:0;
+}
+.talentVideo  .talentVideo-describe{
+    font-size:16px;
+    line-height:24px;
+}
+
+/* 合作伙伴 */
+.talentPartner{
+    text-align:center;
+    padding:50px 0 100px;
+}
+.talentPartner .talentPartner-topical h2{
+    font-size:26px;
+    margin:20px 0 40px;
+}
+.talentPartner .talentPartner-item{
+    padding:40px 20px;
+    /* color:#fff; */
+    /* border:1px solid #f2f2f2; */
+}
+.talentPartner .talentPartner-item:nth-child(2n+1){
+    background:#314553;
+    color:#fff;
+
+}
+.talentPartner .talentPartner-item:nth-child(2n){
+    background:#eee;
+
+}
+
+.talentTrain{
+    text-align:center;
+    padding:50px 0;
+    background:#f3f2f5;
+}
+.talentTrain .talentTrain-topical h2{
+    font-size:26px;
+    margin:20px 0 40px;
+}
+.talentTrain .talentTrain-item{
+    padding:20px;
+}
+
+.talentTrain .talentTrain-title{
+    width:280px;
+    height:260px;
+    margin:0 auto;
+    background:url(../images/test.jpg) no-repeat;
+    background-size:100% 100%;
+    position:relative;
+}
+.talentTrain .talentTrain-title .talentTrain-entry{
+    position:absolute;
+    height:60px;
+    width:100%;
+    left:0;
+    bottom:0;
+    background:rgba(7,152,235,0.78);
+    text-align:center;
+    line-height:60px;
+    color:#fff;
+    list-style:none;
+}
+.talentTrain .talentTrain-entry:hover{
+    background:#fff;
+    color:rgb(7,152,235);
+   text-decoration:none;
+
+}
+.talentTrain .talentTrain-describe{
+    padding:20px 0;
+    text-align:center;
+    font-size:18px;
+    color:#333;
+}
+
+.talentJoin{
+    text-align:center;
+    padding:50px 0;
+}
+.talentJoin .talentJoin-topical h2{
+    font-size:26px;
+    margin:20px 0 40px;
+}
+.talentJoin .talentJoin-btn a{
+    display:inline-block;
+    width:145px;
+    height:42px;
+    line-height:42px;
+    background:#38b594;
+    color:#fff;
+    font-size:16px;
+    border-radius:5px;
+}
+.talentJoin .talentJoin-btn a:hover{
+    text-decoration:none;
+    background:#27ae60;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:0) and (max-width: 992px){
+    .talentBanner .wrapper{
+        height:220px;
+    }
+    .talentBanner .slider-item .item-title{
+        font-size:16px;
+    }
+    .talentBanner .slider-item .item-left{
+        text-align:center;
+        padding:40px 20px 0;
+        text-align:center;
+    
+    }
+    .talentBanner .slider-item .item-right{
+        /* display:none; */
+        padding-top:50px;
+        text-align:right;
+    }
+    .talentBanner .item1 .item-right{
+        text-align:left;
+
+    }
+    .talentBanner .slider-item .item-describe{
+        display:none;
+        width:100%;
+        padding:0;
+        line-height:22px;
+        font-size:14px;
+        
+    }
+    .talentBanner .slider-item .item-more{
+        display:inline-block;
+        color:#fff;
+        border:2px solid #fff;
+        padding:5px 10px;;
+        border-radius:4px;
+        margin-top:15px;
+        
+    }
+    .talentBanner .slider-item .item-right img{
+        width:100px;
+        height:100px;
+    }
+    .talentBanner .slider-page span{
+        opacity:1;
+    }
+    .talentBanner .slider-page .slider-page-prev{
+        left:0;
+    }
+    .talentBanner .slider-page .slider-page-next{
+        right:0;
+    }
+    .talentBanner .wrapper .col-md-5{
+        width:41.66666667%;
+        float:left;
+    }
+    .talentBanner .wrapper .col-md-6{
+        width:50%;
+        float:left;
+    }
+    .talentBanner .wrapper .col-md-7{
+        width:58.33333333%;
+        float:left;
+    }
+
+
+
+
+    /* 视频 */
+    .talentVideo .talentVideo-box{
+        width:100%;
+        height:280px;
+        background:url(../images/video_bg.png);
+        background-size:100% 100%;
+        /* margin:0; */
+    }
+    .talentVideo .talentVideo-box video{
+        width:100%;
+        height:208px;
+    }
+}

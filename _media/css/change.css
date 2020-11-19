@@ -1,0 +1,317 @@
+.bk{
+    border:1px solid red;
+}
+.bu{
+    border:1px solid yellowgreen;
+}
+.top{
+    /* background:rgba(0,0,0,.2); */
+    padding:0 8%;
+    height:78px;
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    z-index:1000;
+}
+.top .row{
+    /* display:table; */
+}
+.top .logo{
+    float:left;
+}
+.top .topNav{
+    /* display:table-cell; */
+    float:right;
+    height:100%;
+    height:78px;
+}
+.top .topNav nav{
+    /* height:100%; */
+    margin-top:18px;
+    
+}
+.top .topNav li a{
+    color:#fff;
+    font-size:18px;
+}
+.talentBanner{
+   
+}
+.talentBanner .wrapper{
+    height:528px;
+    position:relative;
+    overflow:hidden;
+    background:rgba(53,54,68,0.8);
+    /* padding-top:78px; */
+}
+.talentBanner .wrapper:hover .slider-page span{
+    opacity:1;
+}
+.talentBanner ul,.persimmonBanner li{
+    list-style:none;
+}
+.talentBanner .wrapper .slider{
+    height:100%;
+    width:100%;
+    padding:0;
+}
+.talentBanner  .slider-item{
+    width:100%;
+    height:100%;
+    position:absolute;
+    left:0;
+    top:0;
+    /* opacity:0; */
+    visibility:hidden;
+    transition:visibility 1s;
+    padding-top:60px;
+    z-index:0;
+}
+.talentBanner  .slider-item.current{
+    /* opacity:1; */
+    z-index:100;
+    visibility:visible;
+}
+.talentBanner  .slider-item:nth-child(1){
+    background:#1e2835;
+    /* background:url(../images/item0-bg.jpg); */
+    background-size:100% 100%;
+}
+.talentBanner  .slider-item:nth-child(2){
+    background:#2b8872;
+
+}
+.talentBanner  .slider-item:nth-child(3){
+    background:#aec9c3;
+}
+.talentBanner  .slider-item:nth-child(4){
+    background:#2b8872;
+
+}
+.talentBanner  .slider-item:nth-child(5){
+    background:#aec9c3;
+}
+.talentBanner .slider-btn{
+    position:absolute;
+    bottom:10px;
+    text-align:center;
+    margin:0 auto;
+    width:100%;
+    z-index:200;
+}
+.talentBanner .slider-btn span{
+    display:inline-block;
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    margin:0 10px;
+    background:rgba(0,0,0,.3);
+    cursor:pointer;
+    border:1px solid #fff;
+}
+.talentBanner .slider-btn span.current{
+    background:rgba(154,216,255,.8);
+    border:1px solid rgba(154,216,255,.8);
+}
+.talentBanner .slider-page{
+    z-index:200;
+}
+.talentBanner .slider-page span{
+    z-index:100;
+    position:absolute;
+    width:20px;
+    height:40px;
+    top:50%;
+    transform:translateY(-20px);
+    opacity:0;
+    transition:opacity 0.5s;
+    cursor:pointer;
+    
+}
+.talentBanner .slider-page .slider-page-prev{
+    background:rgba(204,205,208,.5) url(../images/banner_left.png) center center no-repeat;
+    left:20px;
+}
+.talentBanner .slider-page .slider-page-next{
+    background:rgba(204,205,208,.5) url(../images/banner_right.png) center center no-repeat;
+    right:20px;
+}
+/* 轮播图的每一项 */
+.talentBanner .slider-item{
+    color:#fff;
+}
+.talentBanner .slider-item .item-title{
+    font-size:38px;
+}
+.talentBanner .slider-item .item-left{
+    padding:50px 0 0 120px ;
+
+}
+.talentBanner .item1 .item-left{
+    padding:50px 0 0 50px;
+}
+.talentBanner .slider-item .item-right{
+    padding-top:50px;
+    text-align:center;
+}
+.talentBanner .slider-item .item-describe{
+    /* width:380px; */
+    font-size:16px;
+    padding:20px 0 30px;
+    line-height:30px;
+    margin-bottom:0;
+    
+}
+.talentBanner .slider-item .item-more{
+    display:inline-block;
+    color:#fff;
+    border:3px solid #fff;
+    padding:10px 30px;
+    border-radius:4px;
+}
+.talentBanner .slider-item .item-right img{
+    width:380px;
+    height:350px;
+}
+/* 展示案例 */
+ul,li{
+    list-style:none;
+}
+.clearfix:after{
+    visibility:hidden;
+    display:block;
+    font-size:0;
+    content: " ";
+    clear:both;
+    height:0;
+}
+.ProductCase {
+    border:1px solid red;
+    padding:60px;
+}
+
+.ProductCase .ProductCase-tittle{
+    text-align:center;
+}
+.ProductCase .ProductCase-tittle h2{
+    font-size:30px;
+    font-weight:normal;
+}
+.ProductCase .ProductCase-tittle p{
+    width: 90%;
+    color: #808080;
+    margin: 20px auto;
+    font-size:16px;
+}
+.ProductCase .ProductCase-tip{
+    padding:30px 0;
+    position:relative;
+}
+.ProductCase .ProductCase-tip .tip-item{
+    text-align:center;
+    font-size:16px;
+    padding:0;
+    cursor:pointer;
+}
+.ProductCase .ProductCase-tip .tip-wrapper{
+    width:150px;
+    height:50px;
+    line-height:46px;
+    margin:0 auto;
+    position:relative;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: -webkit-transform .6s;
+}
+.ProductCase .ProductCase-tip .tip-item.current p{
+    background:#aba6a6;
+}
+.ProductCase .ProductCase-tip .tip-item p{
+    width:100%;
+    height:100%;
+    line-height:50px;
+    margin:0 auto;
+    background:#17bec4;
+    color:#fff;
+    top: 0;
+    border-radius: 3px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    -webkit-transform: translateZ(25px);
+    -webkit-transition: all .6s;
+}
+.ProductCase .ProductCase-tip .tip-item span{
+    position: absolute;
+    -webkit-transform: rotateX(-90deg) translateZ(25px);
+    -webkit-transition: all .6s;
+    display: block;
+    top: 0;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: none;
+    background:#aec9c3;
+    width:100%;
+    height:100%;
+    line-height:50px;
+    /* color:#fff; */
+}
+.ProductCase .ProductCase-tip .tip-item:hover .tip-wrapper{
+    -webkit-transform: rotateX(95deg);
+}
+.ProductCase .ProductCase-tip .tip-item:hover p{
+    box-shadow:none;
+}
+.ProductCase .ProductCase-tip .tip-item:hover span{
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+.ProductCase .ProductCase-content{
+    position:relative;
+    height:320px;
+    overflow:hidden;
+}
+.ProductCase .ProductCase-content .slider{
+    padding:0;
+    width:100%;
+    height:100%;
+}
+.ProductCase .ProductCase-content .slider .slider-item{
+    position:absolute;
+    left:0;
+    top:0;
+    background:#fff;
+    width:100%;
+    height:100%;
+    opacity:0;
+    transition:opacity 0.5s;
+    z-index:0;
+}
+.ProductCase .ProductCase-content .slider-item.current{
+    z-index:100;
+    opacity:1;
+}
+.ProductCase  .slider-item .item-title{
+    padding:10px 0;
+    margin:10px 20px;
+    display:inline-block;
+    border-bottom:2px solid #17bec4;
+}
+.ProductCase  .slider-item .item-describe{
+    padding:0 20px;
+    font-size:16px;
+    width:80%;
+    text-align:justify;
+    line-height:25px;
+}
+.ProductCase  .slider-item .item-right img{
+    /* width:350px; */
+    /* height:280px; */
+}
+.ProductCase .item-right .item-img{
+    text-align:center;
+    /* width:200px; */
+    transform:scale(0.2);
+    transition:transform 1s;
+}
+.ProductCase .slider-item.current .item-img{
+    transform:scale(1);
+}

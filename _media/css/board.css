@@ -1,0 +1,79 @@
+
+.bk{
+    border:1px solid red;
+}
+
+.boardBanner{
+    position:relative;
+}
+.boardBanner .wrapper{
+    position:relative;
+    height:340px;
+    background: url(https://www.rt-thread.org/admin.php?m=file&f=read&t=jpg&fileID=104&type=fullURL) no-repeat center fixed;
+    background-size: cover;
+}
+.boardBanner .board-content{
+    width:100%;
+    height:100%;
+    background:rgba(53,54,68,0.7);
+    position:absolute;
+    left:0;
+    top:0;
+    color:#fff;
+    text-align:center;
+}
+.boardBanner .board-content h2{
+    padding:80px 0 50px;
+    font-size:28px;
+
+}
+.boardBanner .board-content p{
+    font-size:18px;
+}
+.boardShow{
+    padding:60px 0;
+}
+.boardShow .item{
+    padding:20px 10px;
+    /* border:1px solid red; */
+}
+.boardShow .board-item:hover .board-img img{
+    transform:scale(1.1);
+}
+.boardShow .board-item:hover{
+    border:1px solid #17bec4;
+}
+.boardShow .board-item{
+    text-align:center;
+    padding:30px 0;
+    border:1px solid #ddd;
+    border-radius:10px;
+    transition:border 1s;
+}
+.boardShow .board-item .board-img{
+    padding-bottom:20px;
+}
+.boardShow .board-img img{
+    width:260px;
+    height:180px;
+    transition:transform 0.5s;
+}
+.boardShow .board-item .board-content{
+    margin-top:20px;
+    font-size:16px;
+}
+.boardShow .board-item .board-content h2{
+    padding-bottom:10px;
+}
+.boardShow .board-item .board-content .board-desc{
+    /* border:1px solid red; */
+    padding:0 15px;
+    height:110px;
+    margin-bottom:0;
+    text-align:justify;
+}
+.boardShow .boardShow-tip{
+    text-align:center;
+    padding: 20px 0;
+    font-size:16px;
+}
