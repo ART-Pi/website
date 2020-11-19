@@ -8,7 +8,7 @@
 
 ## 互联网网关
 
-![](figures/modbustcp2rtu.gif ':size=800x250 :ignore ')
+![modbustcp2rtu](figures/modbustcp2rtu.gif ':size=800x250 :ignore ')
 - 作者：[loogg](https://github.com/loogg)
 - 仓库地址：https://github.com/RT-Thread-Studio/sdk-bsp-stm32h750-realthread-artpi/tree/master/projects/industry_io_gateway
 
@@ -30,7 +30,7 @@
 
 ## 工业扩展板
 
-![Industry](figures/Industry-IO.png ':size=500x400 :ignore ')
+![Industry-IO](figures/Industry-IO.png ':size=500x400 :ignore ')
 - 作者：RT-Thread
 - 主页：todo
 - 仓库地址：todo
