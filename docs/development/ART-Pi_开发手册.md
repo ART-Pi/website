@@ -32,23 +32,23 @@
 
 如下图所示创建一个工程：
 
-![](./figures/new_prj_1.png)
+![figures](./figures/new_prj_1.png)
 
 填写工程名称；选择 Base On Board；选择 Example；点击 Finsh 按钮。
 
-![](./figures/new_prj_2.png)
+![figures](./figures/new_prj_2.png)
 
 如图所示进行编译；
 
-![](./figures/new_prj_3.png)
+![figures](./figures/new_prj_3.png)
 
 在下载烧录程序前确认下 debuger 配置情况：
 
-![](./figures/debuger.png)
+![figures](./figures/debuger.png)
 
 点击下载按钮，下载烧录程序：
 
-![](./figures/download.png)
+![figures](./figures/download.png)
 
 ## 使用 MDK 开发应用
 
@@ -56,7 +56,7 @@
 
 如图所示以管理员身份打开 PowerShell：
 
-![](./figures/powershell.png)
+![figures](./figures/powershell.png)
 
 依次输入如下三个命令：
 
@@ -66,15 +66,15 @@ mklink /D rt-thread ..\..\rt-thread
 mklink /D libraries ..\..\libraries
 ```
 
-![](./figures/mklink.png)
+![figures](./figures/mklink.png)
 
 然后在该目录下，使用 RT-Thread 官方提供的 env 工具按照 rt-thread 开发的正常流程创建 MDK 工程。
 
 输入 `scons --target=mdk5` 命令生成 MDK 工程。
 
-![](./figures/scons_mdk.png)
+![figures](./figures/scons_mdk.png)
 
-![](./figures/open_mdk.png)
+![figures](./figures/open_mdk.png)
 
 ## 使用 RT-Thread Studio 添加驱动
 
@@ -82,8 +82,8 @@ mklink /D libraries ..\..\libraries
 
 双击 RT-Thread Setting 打开图形配置界面。
 
-![](./figures/new_prj_4.png)
+![figures](./figures/new_prj_4.png)
 
 打开 HardWare 选项卡；选择 Enable UART4；选择完后 ctrl+S 保存当前配置，RT-Thread Studio 会自动刷新生成工程。
 
-![](./figures/new_prj_5.png)
+![figures](./figures/new_prj_5.png)

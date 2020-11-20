@@ -30,7 +30,7 @@
       plugins: [
         function (hook, vm) {
           hook.beforeEach(function (html) {
-            var url = 'https://github.com/Guozhanxin/ART-Pi-Home/blob/master/docs/' + vm.route.file
+            var url = 'https://github.com/ART-Pi/website/blob/master/docs/' + vm.route.file
             var editHtml = '[:memo: Edit this page](' + url + ')\n\n'
 
             return '_Last modified {docsify-updated}_ ' +
