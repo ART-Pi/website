@@ -19,7 +19,17 @@
 ![fire](figures/fire.png )
 
 - 作者：[layson](https://gitee.com/layson_li)
+
 - 仓库地址：https://gitee.com/layson_li/art-pi-open-source-information
+
+  
+
+- ## 亚克力外壳
+
+  ![fire](figures/acrylic.png )
+
+  - 作者：[mchoose](https://gitee.com/mtos)
+  - 仓库地址：https://gitee.com/mtos/art-pi
 
 ## 多媒体扩展板
 
