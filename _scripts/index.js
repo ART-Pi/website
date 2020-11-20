@@ -15,10 +15,8 @@
     var showLen = $(".talentBanner .talentBanner-show .slider-item").length;
     var showTimer;
     $(".talentBanner .talentBanner-show .slider-item").eq(showIndex).addClass("current").siblings().removeClass("current");
-    console.log(showLen)
     function openInterval(){
         showTimer = setInterval(function(){
-            showIndex ++ ;
             console.log(showIndex);
             if(showIndex > showLen - 1 ){
                 $(".talentBanner .talentBanner-show .slider").animate({"left":0},0);
