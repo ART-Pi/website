@@ -10,4 +10,4 @@
 
 - [ART-Pi OLED驱动流程(RTT-Studio 平台)](http://suo.nz/52VW35)
 
-- [RT-Thread 水寒自学实践系列 --- ART-Pi 开发板]https://dp2px.com/categories/RT-Thread/index.html
+- [RT-Thread 水寒自学实践系列 --- ART-Pi 开发板](https://dp2px.com/categories/RT-Thread/index.html)
