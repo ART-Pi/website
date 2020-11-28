@@ -5,7 +5,7 @@
 1. 维护现有 SDK 仓库代码
 2. 提交工程代码可以合并到 SDK 仓库
 3. 提交展示工程，代码无法合并到 SDK 仓库，但是代码开源在其他地方
-4. 提交扩展板（可以加入[立创开源硬件平台 "ART-Pi开源扩展板"团队](https://lceda.cn/join?type=team&key=c62871b3a6e5e51a53876e630a5eb0e4)）
+4. 提交扩展板（可以加入[立创开源硬件平台 "ART-Pi开源硬件社区"团队](https://lceda.cn/join?type=team&key=7de9f7cd1ad0d307b5888d763ad5535e)）
 5. 撰写专栏文章
 
 ### 维护现有 SDK 仓库代码
