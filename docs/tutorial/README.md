@@ -12,4 +12,4 @@
 - [ART-Pi OLED驱动流程(RTT-Studio 平台)](http://suo.nz/52VW35)
 - [刚到的 ART-Pi 开发板点灯总结](https://dp2px.com/2020/11/21/mcu-rumen4/)
 - [RT-Thread 串口操作实践（ART-Pi开发板）](https://dp2px.com/2020/11/22/mcu-rumen5/)
-
+- [手把手教你使用 ART-Pi(STM32H750)片内2M-FLASH](https://club.rt-thread.org/ask/article/2314.html)
