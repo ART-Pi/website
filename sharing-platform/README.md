@@ -1,8 +1,17 @@
 # Demo 分享
 
+## 掌上游戏机
+
+<iframe src="https://player.bilibili.com/player.html?aid=970600404&bvid=BV1Sp4y1z7eB&cid=263208751&page=1" scrolling="no"  height="320px"   border="0" frameborder="no" framespacing="0"  style="width:auto;min-width:auto" allowfullscreen="true"> </iframe>
+
+- 作者：Sakura
+- 仓库地址：todo
+
 ## 云音乐播放器
 
-![](figures/music.gif ':size=500x300 :ignore ')
+<iframe src="https://player.bilibili.com/player.html?aid=203075053&bvid=BV1oa411F7wp&cid=263210345&page=1" scrolling="no"  height="320px"   border="0" frameborder="no" framespacing="0"  style="width:auto;min-width:auto" allowfullscreen="true"> </iframe>
+
+
 - 作者：[liuduanfei](https://github.com/liuduanfei)
 - 仓库地址：https://github.com/RT-Thread-Studio/sdk-bsp-stm32h750-realthread-artpi/tree/master/projects/art_pi_net_player
 
