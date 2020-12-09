@@ -13,3 +13,5 @@
 - [刚到的 ART-Pi 开发板点灯总结](https://dp2px.com/2020/11/21/mcu-rumen4/)
 - [RT-Thread 串口操作实践（ART-Pi开发板）](https://dp2px.com/2020/11/22/mcu-rumen5/)
 - [手把手教你使用 ART-Pi(STM32H750)片内2M-FLASH](https://club.rt-thread.org/ask/article/2314.html)
+- [ART-PI 示例代码使用 HAL 库过程](https://dp2px.com/2020/12/04/mcu-rumen8/)
+- [ART-PI 中使用 Modbus 详解](https://dp2px.com/2020/12/05/mcu-rumen7/)
