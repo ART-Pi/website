@@ -9,6 +9,7 @@
 - [玩转ART-Pi（五）——添加网络功能](https://blog.csdn.net/sinat_31039061/article/details/109763903)
 - [玩转ART-Pi（六）——添加FTP服务器](https://blog.csdn.net/sinat_31039061/article/details/109923612)
 - [玩转ART-Pi（七）——TouchGFX从文件系统中读取图片](https://blog.csdn.net/sinat_31039061/article/details/109763842)
+- [玩转ART-Pi（八）——添加动态模块](https://blog.csdn.net/sinat_31039061/article/details/109763932)
 - [ART-Pi OLED驱动流程(RTT-Studio 平台)](http://suo.nz/52VW35)
 - [刚到的 ART-Pi 开发板点灯总结（MDK5）](https://dp2px.com/2020/11/21/mcu-rumen4/)
 - [RT-Thread 串口操作实践（ART-Pi开发板）](https://dp2px.com/2020/11/22/mcu-rumen5/)
