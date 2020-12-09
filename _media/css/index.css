@@ -200,6 +200,7 @@
     .case .case-img{
         margin-bottom:30px;
     }
+    
     .case .case-img img{
         width:100%;
         max-height:600px;
@@ -508,6 +509,9 @@
             background: rgba(0, 0, 0, .3);
             cursor: pointer;
             border: 1px solid #fff;
+        }
+        .case .case-img iframe{
+            height:260px;
         }
        
     }
