@@ -58,6 +58,7 @@
 
 ![lora-shield_lrs007.jpg](figures/lora-shield_lrs007.jpg)
 ![lora-shield_lrs007_pro.jpg](figures/lora-shield_lrs007_pro.png)
+<center>LoRa多功能扩展板 全功能版</center>
 - 作者：[lierda](http://wsn.lierda.com/)
 - 主页：todo
 - 仓库地址：todo
