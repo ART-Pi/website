@@ -21,6 +21,7 @@
 - [ART-PI_驱动SD卡](https://blog.csdn.net/weixin_37875741/article/details/109733737)
 - [ART-Pi_使用ulog日志](https://blog.csdn.net/weixin_37875741/article/details/109830100)
 - [ART-Pi_手把手教你移植TOUCHGFX](https://blog.csdn.net/weixin_37875741/article/details/110674003)
+- [RT-Thread Studio TouchGFX 硬件交互](https://blog.csdn.net/weixin_37875741/article/details/110942141)
 - [ART-Pi 实现音乐播放器 --播放《天空之城》](https://blog.csdn.net/m0_37697335/article/details/110140740)
 - [ART-Pi 实现PWM底层配置](https://blog.csdn.net/m0_37697335/article/details/109696834)
 - [ART-Pi的系统时钟配置](https://blog.csdn.net/m0_37697335/article/details/109704602)
