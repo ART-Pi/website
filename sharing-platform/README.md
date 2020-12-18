@@ -22,7 +22,16 @@
 - 仓库地址：https://github.com/RT-Thread-Studio/sdk-bsp-stm32h750-realthread-artpi/tree/master/projects/industry_io_gateway
 
 # 扩展板分享
+## LoRa多功能扩展板(LRS007)
 
+![lora-shield_lrs007.jpg](figures/lora-shield_lrs007.jpg)
+![lora-shield_lrs007_pro.jpg](figures/lora-shield_lrs007_pro.png)
+<center>LoRa多功能扩展板 全功能版</center>
+
+- 作者：[lierda](http://wsn.lierda.com/)
+- 主页：todo
+- 仓库地址：todo
+- 
 ## 野火 RGB 显示屏转接板
 
 ![fire](figures/fire.png )
@@ -51,15 +60,5 @@
 
 ![Industry-IO](figures/Industry-IO.png ':size=500x400 :ignore ')
 - 作者：RT-Thread
-- 主页：todo
-- 仓库地址：todo
-
-## LoRa多功能扩展板(LRS007)
-
-![lora-shield_lrs007.jpg](figures/lora-shield_lrs007.jpg)
-![lora-shield_lrs007_pro.jpg](figures/lora-shield_lrs007_pro.png)
-<center>LoRa多功能扩展板 全功能版</center>
-
-- 作者：[lierda](http://wsn.lierda.com/)
 - 主页：todo
 - 仓库地址：todo
