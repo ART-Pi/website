@@ -12,6 +12,7 @@
 - [玩转ART-Pi（八）——添加动态模块](https://blog.csdn.net/sinat_31039061/article/details/109763932)
 - [ART-Pi OLED驱动流程(RTT-Studio 平台)](https://mp.weixin.qq.com/s?__biz=MzI0OTM2OTU5OA==&mid=2247483720&idx=1&sn=4862db09c0232722778aa184333d2eda)
 - [ART-PI OLED小时钟+ESP8266获取网络时间)](https://mp.weixin.qq.com/s?__biz=MzI0OTM2OTU5OA==&mid=2247483788&idx=1&sn=0abc1594b18f45207d33c8d5e3a52351)
+- [ART-PI重力感应无线智能小车第一弹](https://mp.weixin.qq.com/s?__biz=MzI0OTM2OTU5OA==&mid=2247483943&idx=1&sn=b080f3a268c1529ccde5e6a7a878efdb)
 - [刚到的 ART-Pi 开发板点灯总结（MDK5）](https://dp2px.com/2020/11/21/mcu-rumen4/)
 - [RT-Thread 串口操作实践（ART-Pi开发板）](https://dp2px.com/2020/11/22/mcu-rumen5/)
 - [手把手教你使用 ART-Pi(STM32H750)片内2M-FLASH](https://club.rt-thread.org/ask/article/2314.html)
