@@ -37,3 +37,4 @@
 - [ART-Pi学习笔记1：驱动SDIO和USB设备做TF读卡器](https://club.rt-thread.org/ask/article/2417.html)
 - [ART-Pi学习笔记2：驱动片外SPI_FLASH_W25Q128](https://club.rt-thread.org/ask/article/2423.html)
 - [ART-Pi学习笔记3：学习驱动wifi模块AP6212](https://club.rt-thread.org/ask/article/2429.html)
+- [ART-Pi学习笔记5：移植LittleVGL2RTT软件包驱动多媒体扩展屏](https://club.rt-thread.org/ask/article/2434.html)
