@@ -34,3 +34,6 @@
 - [基于ART-PI的智能甲醛检测仪](https://blog.csdn.net/weixin_37127273/article/details/111051723)
 - [ART-PI 连接 ONENET 物联网平台](https://blog.csdn.net/weixin_37127273/article/details/111083856)
 - [利用ART-PI 向 ONENET 上传甲醛浓度信息](https://blog.csdn.net/weixin_37127273/article/details/111119167)
+- [ART-Pi学习笔记1：驱动SDIO和USB设备做TF读卡器](https://club.rt-thread.org/ask/article/2417.html)
+- [ART-Pi学习笔记2：驱动片外SPI_FLASH_W25Q128](https://club.rt-thread.org/ask/article/2423.html)
+- [ART-Pi学习笔记3：学习驱动wifi模块AP6212](https://club.rt-thread.org/ask/article/2429.html)
