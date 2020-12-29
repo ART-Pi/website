@@ -13,7 +13,7 @@
 |  ![li](figures/li.jpg)  | [supperMCU](https://github.com/supperthomas) |2020 RTT 社区卓越贡献者。[art_pi_net_player](https://github.com/RT-Thread-Studio/sdk-bsp-stm32h750-realthread-artpi/tree/master/projects/art_pi_net_player)作者之一。提交多个软件包，带领蓝牙小组工作，协助他人提交代码。|
 | ![che](figures/che.jpg) | 打盹的消防车 ||
 | ![ping](figures/ping.jpg) | 李平 ||
-| ![shen](figures/shen.jpg) | 攻城狮晨哲 ||
+| ![shen](figures/shen.jpg) | [攻城狮晨哲](https://oshwhub.com/CYIIOT) |社区开源爱好者。OSHWHub-[ART-PI开源硬件社区](https://oshwhub.com/ART-Pi-kai-yuan-kuo-zhan-ban)超管|
 | ![mu](figures/mu.jpg) | 李子木 ||
 | ![sheng](figures/sheng.jpg) | layson.li ||
 | ![fei](figures/fei.jpg) | Embedded 小飞哥 ||
