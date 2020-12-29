@@ -22,7 +22,7 @@
 | ![cheng](figures/cheng.jpg) | 杨澄||
 | ![lou](figures/lou.jpg) | Bruce Ou||
 | ![shui](figures/shui.jpg) | ᥬ Z_Tam ᭄ ||
-| ![iyang](figures/iyang.jpg) | iysheng ||
+| ![iysheng](figures/iysheng.jpg) | [iysheng](https://github.com/iysheng) |社區開源愛好者。[RedClock](https://gitee.com/iysheng/redclock) 墨水屏擴展板開發者|
 | ![lzs](figures/lzs.jpg) | LZS||
 
 
