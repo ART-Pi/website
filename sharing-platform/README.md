@@ -62,3 +62,15 @@
 - 作者：RT-Thread
 - 主页：todo
 - 仓库地址：todo
+
+## IOT扩展板
+
+![pcb正面](figures/iot-pcb1.png)
+
+![pcb背面](figures/iot-pcb2.png)
+
+![测试](figures/iot.jpg)
+
+- 作者：[**Dozingfiretruck**](https://gitee.com/Dozingfiretruck)
+- 仓库地址：[ **[ART_PI_IOT扩展板开源项目]**](https://gitee.com/Dozingfiretruck/art_pi_iot)
+
