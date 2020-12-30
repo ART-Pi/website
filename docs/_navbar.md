@@ -7,7 +7,7 @@
 
 
 * 精彩展示
-  - [Demo分享](../sharing-platform/README.md)
+  - [Demo分享](../sharing-platform/Show_demo.md)
   - [扩展板分享](../sharing-platform/Expansion_board.md)
 
 
