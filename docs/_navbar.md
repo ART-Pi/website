@@ -6,7 +6,9 @@
 * [快速开始](development/ART-Pi_开发手册.md)
 
 
-* [精彩展示](../sharing-platform/README.md)
+* 精彩展示
+  - [Demo分享](../sharing-platform/README.md)
+  - [扩展板分享](../sharing-platform/Expansion_board.md)
 
 
 * [技术分享](tutorial/README.md)
