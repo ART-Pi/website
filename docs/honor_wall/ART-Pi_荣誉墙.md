@@ -21,7 +21,7 @@
 | ![dada](figures/dada.jpg) | 你好我叫 刘大大 ||
 | ![cheng](figures/cheng.jpg) | 杨澄||
 | ![Ouxiaolong](figures/Ouxiaolong.jpg) | Ouxiaolong|社区开源爱好者。撰写 [《玩转ART-Pi开发板》](https://blog.csdn.net/bruceoxl/category_10642929.html)。|
-| ![shui](figures/shui.jpg) | ᥬ Z_Tam ᭄ ||
+| ![shui](figures/shui.jpg) | Z_Tam |RTT小菜鸟，学了点东西写了点[笔记](https://blog.csdn.net/weixin_37875741/article/details/111498660)。|
 | ![iysheng](figures/iysheng.jpg) | [iysheng](https://github.com/iysheng) |社區開源愛好者。[RedClock](https://gitee.com/iysheng/redclock) 墨水屏擴展板開發者|
 | ![lzs](figures/lzs.jpg) | LZS||
 
