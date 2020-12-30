@@ -16,7 +16,7 @@
 | ![shen](figures/shen.jpg) | [攻城狮晨哲](https://oshwhub.com/CYIIOT) |社区开源爱好者。OSHWHub-[ART-PI开源硬件社区](https://oshwhub.com/ART-Pi-kai-yuan-kuo-zhan-ban)超管|
 | ![mu](figures/mu.jpg) | 李子木 ||
 | ![sheng](figures/sheng.jpg) | layson.li ||
-| ![fei](figures/fei.jpg) | Embedded 小飞哥 ||
+| ![fei](figures/fei.jpg) | Embedded 小飞哥 || |社区开源爱好者。ART-PI软件包调试系列教程(https://mp.csdn.net/editor/html/110261428)，乐于分享调试经验。
 | ![guo](figures/guo.jpg) | Sakura ||
 | ![dada](figures/dada.jpg) | 你好我叫 刘大大 ||
 | ![cheng](figures/cheng.jpg) | 杨澄||
