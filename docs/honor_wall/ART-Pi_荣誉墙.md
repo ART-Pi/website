@@ -14,13 +14,13 @@
 | ![che](figures/che.jpg) | 打盹的消防车 ||
 | ![ping](figures/ping.jpg) | 李平 ||
 | ![shen](figures/shen.jpg) | [攻城狮晨哲](https://oshwhub.com/CYIIOT) |社区开源爱好者。OSHWHub-[ART-PI开源硬件社区](https://oshwhub.com/ART-Pi-kai-yuan-kuo-zhan-ban)超管|
-| ![mu](figures/mu.jpg) | 李子木 ||
-| ![sheng](figures/sheng.jpg) | layson.li ||
-| ![fei](figures/fei.jpg) | Embedded 小飞哥 || |社区开源爱好者。ART-PI软件包调试系列教程(https://mp.csdn.net/editor/html/110261428)，乐于分享调试经验。
+| ![mu](figures/mu.jpg) | 李子木 | |
+| ![sheng](figures/sheng.jpg) | layson.li | |
+| ![fei](figures/fei.jpg) | Embedded 小飞哥  |社区开源爱好者。[ART-PI软件包调试系列教程](https://mp.csdn.net/editor/html/110261428)，乐于分享调试经验。|
 | ![guo](figures/guo.jpg) | Sakura ||
 | ![dada](figures/dada.jpg) | 你好我叫 刘大大 ||
 | ![cheng](figures/cheng.jpg) | 杨澄||
-| ![lou](figures/Ouxiaolong.jpg) | Ouxiaolong|社区开源爱好者。撰写 [《玩转ART-Pi开发板》](https://blog.csdn.net/bruceoxl/category_10642929.html)。|
+| ![Ouxiaolong](figures/Ouxiaolong.jpg) | Ouxiaolong|社区开源爱好者。撰写 [《玩转ART-Pi开发板》](https://blog.csdn.net/bruceoxl/category_10642929.html)。|
 | ![shui](figures/shui.jpg) | ᥬ Z_Tam ᭄ ||
 | ![iysheng](figures/iysheng.jpg) | [iysheng](https://github.com/iysheng) |社區開源愛好者。[RedClock](https://gitee.com/iysheng/redclock) 墨水屏擴展板開發者|
 | ![lzs](figures/lzs.jpg) | LZS||
