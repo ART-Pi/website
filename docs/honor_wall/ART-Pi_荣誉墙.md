@@ -20,7 +20,7 @@
 | ![guo](figures/guo.jpg) | Sakura ||
 | ![dada](figures/dada.jpg) | 你好我叫 刘大大 ||
 | ![cheng](figures/cheng.jpg) | 杨澄||
-| ![lou](figures/lou.jpg) | Bruce Ou||
+| ![lou](figures/Ouxiaolong.jpg) | Ouxiaolong|社区开源爱好者。撰写 [《玩转ART-Pi开发板》](https://blog.csdn.net/bruceoxl/category_10642929.html)。|
 | ![shui](figures/shui.jpg) | ᥬ Z_Tam ᭄ ||
 | ![iyang](figures/iyang.jpg) | iysheng ||
 | ![lzs](figures/lzs.jpg) | LZS||
