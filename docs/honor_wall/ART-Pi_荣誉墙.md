@@ -23,7 +23,11 @@
 | ![Ouxiaolong](figures/Ouxiaolong.jpg) | Ouxiaolong|社区开源爱好者。撰写 [《玩转ART-Pi开发板》](https://blog.csdn.net/bruceoxl/category_10642929.html)。|
 | ![shui](figures/shui.jpg) | ᥬ Z_Tam ᭄ ||
 | ![iysheng](figures/iysheng.jpg) | [iysheng](https://github.com/iysheng) |社區開源愛好者。[RedClock](https://gitee.com/iysheng/redclock) 墨水屏擴展板開發者|
+| ![rudy](figures/rudy.jpg) | [RudyLo](https://github.com/luhuadong) |2020 RTT 社区卓越贡献者。[CSDN 博客专家](https://blog.csdn.net/lu_embedded)，[《开源指北》](https://gitee.com/gitee-community/opensource-guide)作者之一，开源爱好者，零废弃生活倡导者。|
 | ![lzs](figures/lzs.jpg) | LZS||
-
-
-
+| ![han](figures/han.jpg) | 水寒 ||
+| ![cc](figures/cc.jpg) | cc-caixf ||
+| ![mchoose](figures/mchoose.jpg) | [mchoose](https://gitee.com/mtos) ||
+| ![cui](figures/cui.jpg) | 崔可 ||
+| ![feng](figures/feng.jpg) | 飘雪冰峰 ||
+| ![da](figures/da.jpg) | adaphoto ||
