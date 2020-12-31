@@ -19,7 +19,7 @@
 | ![fei](figures/fei.jpg) | Embedded 小飞哥  |社区开源爱好者。[ART-PI软件包调试系列教程](https://mp.csdn.net/editor/html/110261428)，乐于分享调试经验。|
 | ![guo](figures/guo.jpg) | Sakura ||
 | ![dada](figures/dada.jpg) | 你好我叫 刘大大 ||
-| ![cheng](figures/cheng.jpg) | 杨澄||
+| ![cheng](figures/cheng.jpg) | 杨澄|社区开源爱好者。喜欢写博客，写了一些ART-Pi的相关文章。[《ART-Pi入坑系列》](https://blog.csdn.net/m0_37697335/category_10484125.html)|
 | ![Ouxiaolong](figures/Ouxiaolong.jpg) | Ouxiaolong|社区开源爱好者。撰写 [《玩转ART-Pi开发板》](https://blog.csdn.net/bruceoxl/category_10642929.html)。|
 | ![shui](figures/shui.jpg) | ᥬ Z_Tam ᭄ ||
 | ![iysheng](figures/iysheng.jpg) | [iysheng](https://github.com/iysheng) |社區開源愛好者。[RedClock](https://gitee.com/iysheng/redclock) 墨水屏擴展板開發者|
