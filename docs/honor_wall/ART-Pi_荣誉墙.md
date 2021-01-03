@@ -21,7 +21,7 @@
 | ![dada](figures/dada.jpg) | 你好我叫 刘大大 ||
 | ![cheng](figures/cheng.jpg) | 杨澄|社区开源爱好者。喜欢写博客，写了一些ART-Pi的相关文章。[《ART-Pi入坑系列》](https://blog.csdn.net/m0_37697335/category_10484125.html)|
 | ![Ouxiaolong](figures/Ouxiaolong.jpg) | Ouxiaolong|社区开源爱好者。撰写 [《玩转ART-Pi开发板》](https://blog.csdn.net/bruceoxl/category_10642929.html)。|
-| ![shui](figures/shui.jpg) | ᥬ Z_Tam ᭄ ||
+| ![shui](figures/shui.jpg) | Z_Tam |RTT小菜鸟，学了点东西写了点[笔记](https://blog.csdn.net/weixin_37875741/article/details/111498660)。|
 | ![iysheng](figures/iysheng.jpg) | [iysheng](https://github.com/iysheng) |社區開源愛好者。[RedClock](https://gitee.com/iysheng/redclock) 墨水屏擴展板開發者|
 | ![rudy](figures/rudy.jpg) | [RudyLo](https://github.com/luhuadong) |2020 RTT 社区卓越贡献者。[CSDN 博客专家](https://blog.csdn.net/lu_embedded)，[《开源指北》](https://gitee.com/gitee-community/opensource-guide)作者之一，开源爱好者，零废弃生活倡导者。|
 | ![lzs](figures/lzs.jpg) | LZS||
