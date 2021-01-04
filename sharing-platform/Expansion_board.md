@@ -66,3 +66,15 @@
 |   作者   |                RT-Thread                 |
 | :------: | :--------------------------------------: |
 | 硬件信息 | ETH, RS-232, RS-485, CAN, USB-HOST, BEEP |
+
+## Ink screen 多功能扩展板
+
+![top](figures/ink_top.jpg)
+![oblique](figures/ink_oblique.jpg)
+
+
+|   作者   |               [iysheng](https://gitee.com/iysheng)           |
+| :------: | :----------------------------------------------------------: |
+| 仓库地址 |    [RedClock](https://gitee.com/iysheng/redclock)            |
+| 硬件信息 | spi 墨水屏接口、ETH、LPS22HH 傳感器                          |
+
