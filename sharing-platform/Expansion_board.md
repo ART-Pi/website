@@ -49,24 +49,6 @@
 | 仓库地址 |   https://gitee.com/mtos/art-pi   |
 | 硬件信息 |                                   |
 
-## 多媒体扩展板
-
-![media](figures/media.png ':size=500x400 :ignore ')
-
-| 作者     |                     RT-Thread                     |
-| -------- | :-----------------------------------------------: |
-| 硬件信息 | SPI-LCD, TOUCH(FT6236), WM8988, DCMI接口,背光调节 |
-
-
-
-## 工业扩展板
-
-![Industry-IO](figures/Industry-IO.png ':size=500x400 :ignore ')
-
-|   作者   |                RT-Thread                 |
-| :------: | :--------------------------------------: |
-| 硬件信息 | ETH, RS-232, RS-485, CAN, USB-HOST, BEEP |
-
 ## Ink screen 多功能扩展板
 
 ![top](figures/ink_top.jpg)
@@ -78,3 +60,29 @@
 | 仓库地址 |    [RedClock](https://gitee.com/iysheng/redclock)            |
 | 硬件信息 | spi 墨水屏接口、ETH、LPS22HH 傳感器                          |
 
+## 复制官方 ART-Pi
+
+![top](figures/copy.png)
+
+
+|   作者   | [通宵敲代码](https://gitee.com/knocking_code_all_night_admin) |
+| :------: | :----------------------------------------------------------: |
+| 仓库地址 | [ART-Pi_STM32H750_COPY](https://gitee.com/knocking_code_all_night_admin/ART-Pi_STM32H750_COPY) |
+| 硬件信息 |                                                              |
+
+## 多媒体扩展板
+
+![media](figures/media.png ':size=500x400 :ignore ')
+
+| 作者     |                     RT-Thread                     |
+| -------- | :-----------------------------------------------: |
+| 硬件信息 | SPI-LCD, TOUCH(FT6236), WM8988, DCMI接口,背光调节 |
+
+
+## 工业扩展板
+
+![Industry-IO](figures/Industry-IO.png ':size=500x400 :ignore ')
+
+|   作者   |                RT-Thread                 |
+| :------: | :--------------------------------------: |
+| 硬件信息 | ETH, RS-232, RS-485, CAN, USB-HOST, BEEP |
