@@ -17,7 +17,7 @@
 | ![mu](figures/mu.jpg) | 李子木 | 社区开源爱好者。 |
 | ![sheng](figures/sheng.jpg) | layson.li | 社区开源爱好者。[gt917s 软件包](https://github.com/lilisheng411527/gt917s)|
 | ![fei](figures/fei.jpg) | Embedded 小飞哥  |社区开源爱好者。[ART-PI软件包调试系列教程](https://mp.csdn.net/editor/html/110261428)，乐于分享调试经验。|
-| ![guo](figures/guo.jpg) | Sakura ||
+| ![guo](figures/guo.jpg) | Sakura |社区开源爱好者。[art_pi_nes](https://github.com/RT-Thread-Studio/sdk-bsp-stm32h750-realthread-artpi/tree/master/projects/art_pi_nes) 作者之一,提交多个软件包|
 | ![dada](figures/dada.jpg) | 你好我叫 刘大大 ||
 | ![cheng](figures/cheng.jpg) | 杨澄|社区开源爱好者。喜欢写博客，写了一些ART-Pi的相关文章。[《ART-Pi入坑系列》](https://blog.csdn.net/m0_37697335/category_10484125.html)|
 | ![Ouxiaolong](figures/Ouxiaolong.jpg) | Ouxiaolong|社区开源爱好者。撰写 [《玩转ART-Pi开发板》](https://blog.csdn.net/bruceoxl/category_10642929.html)。|
