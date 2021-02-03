@@ -9,6 +9,7 @@
 * 精彩展示
   - [Demo分享](../sharing-platform/Show_demo.md)
   - [扩展板分享](../sharing-platform/Expansion_board.md)
+  - [全连接大赛](../sharing-platform/Competition.md)
 
 
 * [技术分享](tutorial/README.md)
