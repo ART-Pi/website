@@ -17,6 +17,6 @@
 ||崔可|[手把手教你使用 ART-Pi(STM32H750)片内2M-FLASH](https://club.rt-thread.org/ask/article/2314.html)<br>[使用 ART-Pi(STM32H750) 片外8M 之JLINK](https://club.rt-thread.org/ask/article/2348.html)|
 |||[ART-PI开发板简单点个灯](https://www.getce.cn/show/140.html)|
 ||[静静流淌的柯溪](https://blog.csdn.net/u014421520)|[ART-PI开发板蓝牙配网流程分析](https://blog.csdn.net/u014421520/article/details/110938234)|
-
+||[游泳的鱼儿](https://club.rt-thread.org/u/15845)|[ART-Pi在studio中勾选USB host后编译错误的问题](https://club.rt-thread.org/ask/article/2511.html)|
 
 
