@@ -22,6 +22,7 @@
 ||[Rice嵌入式开发](https://blog.csdn.net/baidu_29900103)|[在RT-Thread的ART-PI平台，进行图片识别](https://blog.csdn.net/baidu_29900103/article/details/114529251)|
 ||[Thread_Liu](https://club.rt-thread.org/u/13731)|[基于 ART-Pi 实现的百度 AI 图像识别](https://club.rt-thread.org/ask/article/2645.html)|
 |[RT-Thread ART-PI 学习笔记](https://blog.csdn.net/weixin_42487906/category_10805535.html)|[张竞豪](https://blog.csdn.net/weixin_42487906)|[TouchGFX的使用和配置](https://blog.csdn.net/weixin_42487906/article/details/113681946)<br>[文件系统的使用和配置](https://blog.csdn.net/weixin_42487906/article/details/113766368)<br>[网络功能使用和websocket软件包获取心知天气](https://blog.csdn.net/weixin_42487906/article/details/113767644)|
+||[爱学习的乐乐](https://blog.csdn.net/qq_21479819/category_10292756.html)|[基于RT-Thread Stduio使用ART-Pi的ADC外设](https://blog.csdn.net/qq_21479819/article/details/115298966)<br>[基于RT-Thread的环境监测装置（含IO口模拟8080时序驱动TFT屏幕）](https://blog.csdn.net/qq_21479819/article/details/115288428)|
 ||崔可|[手把手教你使用 ART-Pi(STM32H750)片内2M-FLASH](https://club.rt-thread.org/ask/article/2314.html)<br>[使用 ART-Pi(STM32H750) 片外8M 之JLINK](https://club.rt-thread.org/ask/article/2348.html)|
 ||[sgf201](https://club.rt-thread.org/u/14909)|[ART-PI CANFD 测试与Debug](https://club.rt-thread.org/ask/article/2587.html)|
 |[玩转ART-PI+TouchGFX](https://blog.csdn.net/songjun007/category_10823105.html)|[就是菜啊！](https://blog.csdn.net/songjun007)|[ART-PI开发板连接玫瑰科技5寸LCD屏幕](https://blog.csdn.net/songjun007/article/details/113922992)|
