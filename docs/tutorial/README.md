@@ -31,4 +31,5 @@
 ||[静静流淌的柯溪](https://blog.csdn.net/u014421520)|[ART-PI开发板蓝牙配网流程分析](https://blog.csdn.net/u014421520/article/details/110938234)|
 ||[游泳的鱼儿](https://club.rt-thread.org/u/15845)|[ART-Pi在studio中勾选USB host后编译错误的问题](https://club.rt-thread.org/ask/article/2511.html)|
 ||[白商柿红](https://blog.csdn.net/qq_42913442)|[ART-Pi上手体验](https://blog.csdn.net/qq_42913442/article/details/110912956?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522162626312316780264094559%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=162626312316780264094559&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~baidu_landing_v2~default-7-110912956.first_rank_v2_pc_rank_v29&utm_term=ART-Pi&spm=1018.2226.3001.4187)|
+||[YSUK_1786](https://club.rt-thread.org/u/17018)|[STM32的“GPU”——DMA2D实例详解](https://club.rt-thread.org/ask/article/2858.html)|
 
